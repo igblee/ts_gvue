@@ -1,0 +1,19 @@
+{
+  "name": "ts_gvue",
+  "version": "0.0.6",
+  "description": "auto create the vue component template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "gvue": "gvue"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "shelljs": "^0.8.3",
+    "ts_gvue": "^0.0.5"
+  }
+}
