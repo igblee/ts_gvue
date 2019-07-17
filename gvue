@@ -42,8 +42,7 @@ if (template === 'normal') {
   if (fileExist) {
     throw new Error('file is already exist');
   }
-  data = generateFn,
-    generateFn(name, path.resolve(realDirPath, name));
+  data = generateFn(name, path.resolve(realDirPath, name));
   fs.writeFileSync(path.resolve(realDirPath, name + '.vue'), data, {
     encoding: 'utf8'
   })
