@@ -7,7 +7,7 @@ function generateFn(name, path) {
   }
   return `
 <template>
-  <div className = "${cableName}-container"></div>
+  <div class= "${cableName}-container"></div>
 </template>
 <script>
 /* component path */
@@ -31,15 +31,22 @@ function generateHOCFn(name, path, component) {
   }
 
   return `
-export default function ${name}(${component}) {
-  return {
-    template: '',
-    components: {
-      ${component},
-    },
-    data() {return{}},
-    methods: {},
-  }
+import ${component} from '?'
+export default {
+  name: '${name}',
+  components: {
+    ${component},
+  },
+  props: {
+  },
+  data () {
+    return {}
+  },
+  methods: {},
+  render (h) {
+    return h('${component}', {
+    })
+  },
 }
   `
 }
