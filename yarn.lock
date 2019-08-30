@@ -25,6 +25,11 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+ejs@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/ejs/-/ejs-2.6.2.tgz#3a32c63d1cd16d11266cd4703b14fec4e74ab4f6"
+  integrity sha512-PcW2a0tyTuPHz3tWyYqtK6r1fZ3gp+3Sop8Ph+ZYN81Ob5rwmbHEzaqs10N3BEsaGTkh/ooniXK+WwszGlc2+Q==
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -106,6 +111,36 @@ shelljs@^0.8.3:
     glob "^7.0.0"
     interpret "^1.0.0"
     rechoir "^0.6.2"
+
+ts_gvue@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.12.tgz#8ee944b90c5b438f76eed40e15c9d40b642c1f13"
+  integrity sha512-Z+f/h7P0qlEJmfcq1ideDcD+YD22tUwavx7DPMobdcq/Q32Izoiat2Nf60VkkRG7i/Z6O9syvdFL0FC3zvsqSA==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.5"
+
+ts_gvue@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.13.tgz#bbe6c6660397f65b35e39df5874fa13ad5b79fb0"
+  integrity sha512-KdA22d/vOwuZifycnE+qL78vGDqh5dbTkSQVcD6KHJHixUdSG8KZcxy4SAEwM6aNTNHQMxrLwY0upPyIaZwzuw==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.12"
+
+ts_gvue@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.15.tgz#4ae1e915ab9026540416bb3eed05bc30e63874e2"
+  integrity sha512-c2YxLvYG3EfoknsEY8d5Raym5dnkGkgvpX8+jLiezuzOA8sjxKn/UEDLxfrcra3BVv963U7i3qSYJ/ow0Y2a9Q==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.13"
 
 ts_gvue@^0.0.2:
   version "0.0.2"

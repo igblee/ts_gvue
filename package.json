@@ -1,6 +1,6 @@
 {
   "name": "ts_gvue",
-  "version": "0.0.9",
+  "version": "0.0.15",
   "description": "auto create the vue component template",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,12 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "gvue": "gvue"
+    "gvue": "gvue.js"
   },
   "dependencies": {
     "commander": "^2.20.0",
+    "ejs": "^2.6.2",
     "shelljs": "^0.8.3",
-    "ts_gvue": "^0.0.5"
+    "ts_gvue": "^0.0.15"
   }
 }
