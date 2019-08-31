@@ -142,6 +142,36 @@ ts_gvue@^0.0.15:
     shelljs "^0.8.3"
     ts_gvue "^0.0.13"
 
+ts_gvue@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.16.tgz#e3e759a7c97867cd1334f1574979b656c19e2977"
+  integrity sha512-9gLT+O/6HFn34DjKWXWAlU1XCKYj7L1nbUQ2uL5pSr8St2V4uEMp4ILaRYMQmyWGA5LTF6a1C0zLKYB4ofBhWA==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.15"
+
+ts_gvue@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.17.tgz#fc01089f0124dc79e7bf8242d7bb205f61752c2f"
+  integrity sha512-ItDx8sGbAJRAyvlPyiLgvQ40YjrRSdJKiLPMCnuV3bS6NSr+Og7BheHXdicrOgVzaqwVTzA5Gw8sRZEr3YEmDA==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.16"
+
+ts_gvue@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/ts_gvue/-/ts_gvue-0.0.19.tgz#d00088f39b3d0ffa074e55d0b9e140cba37a4a71"
+  integrity sha512-x+o6Ga/K46/8a6hpGYGdurUR10N8fPdjrECgpGkAxvDhGwTsODb9TZb90Ir78Y8J39PImBj9/JgpVV7EQbtAng==
+  dependencies:
+    commander "^2.20.0"
+    ejs "^2.6.2"
+    shelljs "^0.8.3"
+    ts_gvue "^0.0.17"
+
 ts_gvue@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/ts_gvue/-/ts_gvue-0.0.2.tgz#41e536342eda24372b49cb442edacb5671d8f627"
