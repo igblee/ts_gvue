@@ -1,6 +1,6 @@
 {
   "name": "ts_gvue",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "auto create the vue component template",
   "main": "index.js",
   "scripts": {

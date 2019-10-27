@@ -1,5 +1,5 @@
 <template>
-  <div class= "<%= cableName %>-container"></div>
+  <div class="<%= cableName %>-container"></div>
 </template>
 <script>
 /**
