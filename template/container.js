@@ -1,5 +1,5 @@
 <template>
-  <div class="<%= cableName %>-container"></div>
+  <div class="<%= cableName %>-container">content</div>
 </template>
 <script>
 /**
@@ -11,4 +11,5 @@ export default {
 }
 </script>
 <style scoped>
+/* placeholder */
 </style>
